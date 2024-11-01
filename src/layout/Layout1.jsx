@@ -8,7 +8,7 @@ export const Layout1 = () => {
     <main className=" grid min-h-[100dvh]  grid-rows-[auto_1fr_auto]">
       <NavBar />
       <MobileNavBar />
-      <section className="  container mx-auto px-5 md:px-20 lg:px-40  ">
+      <section className="  container mx-auto px-5 md:px-20 lg:px-40  my-20 ">
         <Outlet />
       </section>
       <Footer />

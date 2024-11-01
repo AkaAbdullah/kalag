@@ -1,8 +1,8 @@
 export const menuITems = [
   {
     id: 1,
-    title: "Amazon",
-    url: "/amazon-services",
+    title: "Home",
+    url: "/",
   },
   {
     id: 2,
@@ -11,12 +11,17 @@ export const menuITems = [
   },
   {
     id: 3,
-    title: "Read Guides",
+    title: "Portfolio",
     url: "/read-guides",
   },
   {
     id: 4,
     title: "About",
     url: "/about",
+  },
+  {
+    id: 5,
+    title: "Contact",
+    url: "/contact",
   },
 ];

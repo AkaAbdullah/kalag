@@ -1,4 +1,3 @@
-import React from "react";
 import { twMerge } from "tailwind-merge";
 
 export const Button = ({ title, onClick, type, variant, className }) => {

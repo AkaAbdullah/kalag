@@ -1,16 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/m.png";
 import { ImMenu } from "react-icons/im";
 import { useNav } from "../hooks/useNav";
 import { menuITems } from "../utils/data";
+import { mediaData } from "../utils/mediaData";
 
 export const MobileNavBar = () => {
   const { onMEnuClick, navOpen } = useNav();
   return (
     <>
-      <nav className=" flex lg:hidden h-16 w-full justify-between flex-row bg-white shadow-lg p-5 items-center ">
+      <nav className=" flex lg:hidden h-16 w-full justify-between flex-row   shadow-lg p-5 items-center ">
         <Link to="/">
-          <img src={logo} className=" size-10" />
+          <img src={mediaData.logo} className=" w-[100px]" />
         </Link>
         <ImMenu size={30} onClick={onMEnuClick} />
       </nav>

@@ -1,5 +1,5 @@
-import landigpageImage from "../assets/landingimage.svg";
+import logo from "../assets/logo.png";
 
 export const mediaData = {
-  landigpageImage,
+  logo,
 };

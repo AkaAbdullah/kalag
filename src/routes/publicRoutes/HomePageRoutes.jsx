@@ -16,7 +16,7 @@ export const homePageRoutes = [
         element: <ErrorPage />,
       },
       {
-        path: "/amazon-services",
+        path: "/",
         element: <p>amazonservices</p>,
       },
       {
