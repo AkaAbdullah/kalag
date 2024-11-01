@@ -1,10 +1,10 @@
 export const Cards = ({ cardData }) => {
   return (
-    <div className=" flex flex-wrap gap-5 flex-col  lg:flex-row justify-between">
+    <div className=" flex flex-wrap gap-5 flex-col items-center  lg:flex-row justify-between">
       {cardData?.map((item) => (
         <div
           key={item.id}
-          className=" rounded-xl shadow-lg w-[250px] h-auto  bg-gradient-to-t  from-blue-900 to-blue-500 p-5"
+          className=" rounded-xl hover:scale-105 duration-300 cursor-pointer shadow-lg w-full md:w-[250px] h-auto  bg-gradient-to-t  from-blue-900 to-blue-500 p-5"
         >
           {item.icon}
           <div>

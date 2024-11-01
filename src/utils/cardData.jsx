@@ -1,6 +1,12 @@
+import { CgWebsite } from "react-icons/cg";
+import { FaCcAmazonPay } from "react-icons/fa";
 import { GrGroup } from "react-icons/gr";
 import { HiOutlineLightBulb } from "react-icons/hi";
+import { IoLogoWordpress } from "react-icons/io";
 import { LuBrainCircuit } from "react-icons/lu";
+import { SiFigma } from "react-icons/si";
+import { TbDeviceImacSearch } from "react-icons/tb";
+import { TiSocialInstagram } from "react-icons/ti";
 import { VscTools } from "react-icons/vsc";
 
 export const cardData = [
@@ -31,5 +37,44 @@ export const cardData = [
     description:
       "We closely track every marketing changes, tailor our campaign and scaling to convert every click into a customer.",
     icon: <GrGroup size={60} className="  text-white" />,
+  },
+];
+
+export const serviceCardData = [
+  {
+    id: 1,
+    title: "Website Figma Designing",
+    desc: "Our Figma designers craft websites that are appealing and engaging, setting you apart with a unique look to boost your brand's growth.",
+    icon: <SiFigma size={60} className=" text-white" />,
+  },
+  {
+    id: 2,
+    title: "Website Development",
+    desc: "Website development is essential for success. Trust in our expert services to deliver a functional, secure, fast, and responsive website that perfectly represents your brand on all devices.",
+    icon: <CgWebsite size={60} className=" text-white" />,
+  },
+  {
+    id: 3,
+    title: "Custom Application Solution",
+    desc: "Whether you need a custom WordPress site, ERP software, or business automation. We offer tailored solutions that align perfectly with your business needs.",
+    icon: <IoLogoWordpress size={60} className=" text-white" />,
+  },
+  {
+    id: 4,
+    title: "Search Engine Optimization - SEO",
+    desc: "Our SEO practices make us superior. Through organised keyword research, monitoring, and white hat techniques, we ensure maintaining high ranks in search engines for long term.",
+    icon: <TbDeviceImacSearch size={60} className=" text-white" />,
+  },
+  {
+    id: 5,
+    title: "Social Media Marketing",
+    desc: "We work closely with you to deliver quality content for your audience. However they can engage with your brand for a long time.",
+    icon: <TiSocialInstagram size={60} className=" text-white" />,
+  },
+  {
+    id: 6,
+    title: "Pay Per Click - PPC & LLC creation",
+    desc: "When you need to boost sales quickly or target specific events, we create effective campaigns that ensure every dollar you spend brings back profit.",
+    icon: <FaCcAmazonPay size={60} className=" text-white" />,
   },
 ];
