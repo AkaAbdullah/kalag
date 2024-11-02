@@ -4,6 +4,8 @@ import { cardData, serviceCardData } from "../utils/cardData";
 import { ServicesSection } from "../components/ServicesSection";
 import { HeroSection } from "../components/HeroSection";
 import { ClientsSection } from "../components/ClientsSection";
+import { ConsultSection } from "../components/ConsultSection";
+import { WhyChooseUsSection } from "../components/WhyChooseUsSection";
 
 export const HomePage = () => {
   return (
@@ -13,6 +15,10 @@ export const HomePage = () => {
       <AboutUsSection />
       <ServicesSection cardData={serviceCardData} />
       <ClientsSection />
+      <div className="  py-40">
+        <ConsultSection />
+      </div>
+      <WhyChooseUsSection />
     </section>
   );
 };

@@ -122,3 +122,26 @@ export const clientsLogos = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Century_21_Logo.png", // Century 21
   },
 ];
+
+export const awards = [
+  {
+    id: 1,
+    title: "Satisfied Clients",
+    no: "250+",
+  },
+  {
+    id: 2,
+    title: "Award Winning",
+    no: "10+",
+  },
+  {
+    id: 3,
+    title: "Team Members",
+    no: "40+",
+  },
+  {
+    id: 4,
+    title: "Successful Projects",
+    no: "350+",
+  },
+];
