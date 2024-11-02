@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { clientsLogos } from "../utils/cardData";
 
 export const ClientsSection = () => {
   const responsive = {
@@ -47,16 +48,13 @@ export const ClientsSection = () => {
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
       >
-        <div className=" font-semibold text-2xl">Mia Khalifa</div>
-        <div className=" font-semibold text-2xl">Eva Elfie</div>
-        <div className=" font-semibold text-2xl">Lisa Ann</div>
-        <div className=" font-semibold text-2xl">Jhonny Sins</div>
-        <div className=" font-semibold text-2xl">Mia Malkova</div>
-        <div className=" font-semibold text-2xl">Candy Love</div>
-        <div className=" font-semibold text-2xl">Mira David</div>
-        <div className=" font-semibold text-2xl">Mia Malkova</div>
-        <div className=" font-semibold text-2xl">Charity Crawford</div>
-        <div className=" font-semibold text-2xl">Jennice Griffith</div>
+        {clientsLogos.map((item) => (
+          <img
+            src={item.logo}
+            key={item.id}
+            className=" size-[100px] object-cover rounded-full"
+          />
+        ))}
       </Carousel>
     </section>
   );

@@ -1,6 +1,5 @@
 import { menuITems } from "../utils/data";
 import { Link, NavLink } from "react-router-dom";
-import { FaPhone } from "react-icons/fa";
 import { mediaData } from "../utils/mediaData";
 
 export const NavBar = () => {
@@ -8,7 +7,7 @@ export const NavBar = () => {
     <nav className=" hidden  fixed bg-white z-40 shadow-lg w-full h-16 text-black  md:flex items-center ">
       <div className=" flex items-center justify-between container mx-auto px-5 md:px-20 lg:px-40 ">
         <Link to="/">
-          <img src={mediaData.logo} className=" w-[100px]" />
+          <img src={mediaData.logo1} className=" w-[100px]" />
         </Link>
         <MenuItems />
         <ContactITems />

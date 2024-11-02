@@ -83,43 +83,15 @@ export const serviceCardData = [
 export const clientsLogos = [
   {
     id: 1,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/RealEstate_logo.png", // Example real estate logo
+    logo: mediaData.c1,
   },
   {
     id: 2,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/61/Nike_logo.png", // Nike
+    logo: mediaData.c2,
   },
   {
     id: 3,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Adidas_Logo.png", // Adidas
-  },
-  {
-    id: 4,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Coldwell_Banker_Logo.png", // Coldwell Banker
-  },
-  {
-    id: 5,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Puma_logo.png", // Puma
-  },
-  {
-    id: 6,
-    logo: "https://upload.wikimedia.org/wikipedia/en/6/66/REMAX-Logo.svg", // RE/MAX
-  },
-  {
-    id: 7,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/d/db/UnderArmour-Logo.png", // Under Armour
-  },
-  {
-    id: 8,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Keller_Williams_Logo.png", // Keller Williams
-  },
-  {
-    id: 9,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Lululemon_Logo.svg", // Lululemon
-  },
-  {
-    id: 10,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Century_21_Logo.png", // Century 21
+    logo: mediaData.c3,
   },
 ];
 

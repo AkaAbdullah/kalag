@@ -6,7 +6,7 @@ export const menuITems = [
   },
   {
     id: 2,
-    title: "Service",
+    title: "Services",
     url: "/services",
   },
   {

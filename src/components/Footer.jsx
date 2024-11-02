@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer className=" bg-white text-black flex items-center w-full h-auto  py-10  gradient">
       <div className="  grid lg:grid-cols-3 gap-5  lg:gap-10 grid-cols-1 items-start justify-items-center container mx-auto px-5 md:px-20 lg:px-40">
         <div className="  flex  items-center lg:items-start flex-col">
-          <img src={mediaData.logo} className=" w-[150px]" />
+          <img src={mediaData.logo2} className=" w-[250px] mb-2" />
           <p className=" font-semibold">
             Elevate your online presence with our specialized WordPress
             development solutions.
