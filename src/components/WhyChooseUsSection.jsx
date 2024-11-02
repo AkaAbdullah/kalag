@@ -3,8 +3,8 @@ import { awards } from "../utils/cardData";
 
 export const WhyChooseUsSection = () => {
   return (
-    <section className=" grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-10">
-      <div className=" flex gap-20 flex-wrap">
+    <section className=" grid grid-cols-1 lg:grid-cols-2 justify-items-around  ">
+      <div className=" flex gap-20 flex-wrap items-center justify-center">
         {awards.map((item) => (
           <div
             className=" bg-blue-600 w-[150px] h-[150px]  text-white flex items-center flex-col  p-5 rounded-xl shadow-lg"
