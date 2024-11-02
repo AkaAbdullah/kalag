@@ -16,17 +16,17 @@ export const Reviews = () => {
           showIndicators={false}
           showStatus={false}
           emulateTouch={true}
-          interval={3000}
+          interval={5000}
         >
-          <div>
-            <h1 className=" text-lg text-slate-500">
+          {/* <div className=" w-3/4 lg:w-full">
+            <h1 className=" text-sm lg:text-lg text-slate-500">
               Bohat maaza aya kam kar k bhenchod maa chod di kaam ki bhsodiwalo
               ne
             </h1>
             <p className=" font-semibold text-xl">Kala Tata</p>
-          </div>
-          <div>
-            <h1 className=" text-lg text-slate-500 text-wrap">
+          </div> */}
+          <div className="w-3/4 lg:w-full">
+            <h1 className=" text-sm lg:text-lg text-slate-500 text-wrap">
               I cannot express how pleased I am with the service I received from
               this company. From the moment I made my initial inquiry, their
               team was incredibly responsive and attentive. They took the time
@@ -36,10 +36,10 @@ export const Reviews = () => {
               and professional team. I would highly recommend them to anyone
               looking for reliable service!
             </h1>
-            <p className=" font-semibold text-xl">Markus Ling</p>
+            <p className=" font-semibold text-xl mt-6">Markus Ling</p>
           </div>
-          <div>
-            <h1 className=" text-lg text-slate-500">
+          <div className="w-3/4 lg:w-full">
+            <h1 className=" text-sm lg:text-lg text-slate-500">
               Working with this company has been a game-changer for my business.
               Their expertise and innovative approach helped us achieve our
               goals faster than we anticipated. The team's communication was
@@ -49,7 +49,7 @@ export const Reviews = () => {
               my investment. I truly appreciate their hard work and commitment
               to excellence!
             </h1>
-            <p className=" font-semibold text-xl">John Smith</p>
+            <p className=" font-semibold text-xl mt-6">John Smith</p>
           </div>
         </Carousel>
       </div>

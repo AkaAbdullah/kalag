@@ -11,9 +11,13 @@ import { Reviews } from "../components/Reviews";
 export const HomePage = () => {
   return (
     <section className=" space-y-20  h-full">
-      <HeroSection />
-      <Cards cardData={cardData} />
-      <AboutUsSection />
+      <div className=" py-20">
+        <HeroSection />
+        <Cards cardData={cardData} />
+      </div>
+      <div className=" py-20">
+        <AboutUsSection />
+      </div>
       <ServicesSection cardData={serviceCardData} />
       <ClientsSection />
       <div className="  py-40">
