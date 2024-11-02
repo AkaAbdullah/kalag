@@ -5,7 +5,7 @@ import { mediaData } from "../utils/mediaData";
 
 export const NavBar = () => {
   return (
-    <nav className=" hidden gradient shadow-sm w-full h-16 text-black  md:flex items-center ">
+    <nav className=" hidden  shadow-lg w-full h-16 text-black  md:flex items-center ">
       <div className=" flex items-center justify-between container mx-auto px-5 md:px-20 lg:px-40 ">
         <Link to="/">
           <img src={mediaData.logo} className=" w-[100px]" />
@@ -27,7 +27,7 @@ export const MenuItems = () => {
           className={({ isActive }) =>
             isActive
               ? " text-blue-700  text-lg font-semibold   underline"
-              : "  text-lg text-blue-700"
+              : "  text-lg text-black font-semibold"
           }
         >
           {items.title}

@@ -8,6 +8,7 @@ import { SiFigma } from "react-icons/si";
 import { TbDeviceImacSearch } from "react-icons/tb";
 import { TiSocialInstagram } from "react-icons/ti";
 import { VscTools } from "react-icons/vsc";
+import { mediaData } from "./mediaData";
 
 export const cardData = [
   {
@@ -76,5 +77,48 @@ export const serviceCardData = [
     title: "Pay Per Click - PPC & LLC creation",
     desc: "When you need to boost sales quickly or target specific events, we create effective campaigns that ensure every dollar you spend brings back profit.",
     icon: <FaCcAmazonPay size={60} className=" text-white" />,
+  },
+];
+
+export const clientsLogos = [
+  {
+    id: 1,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/RealEstate_logo.png", // Example real estate logo
+  },
+  {
+    id: 2,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/61/Nike_logo.png", // Nike
+  },
+  {
+    id: 3,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Adidas_Logo.png", // Adidas
+  },
+  {
+    id: 4,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Coldwell_Banker_Logo.png", // Coldwell Banker
+  },
+  {
+    id: 5,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Puma_logo.png", // Puma
+  },
+  {
+    id: 6,
+    logo: "https://upload.wikimedia.org/wikipedia/en/6/66/REMAX-Logo.svg", // RE/MAX
+  },
+  {
+    id: 7,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/d/db/UnderArmour-Logo.png", // Under Armour
+  },
+  {
+    id: 8,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Keller_Williams_Logo.png", // Keller Williams
+  },
+  {
+    id: 9,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Lululemon_Logo.svg", // Lululemon
+  },
+  {
+    id: 10,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Century_21_Logo.png", // Century 21
   },
 ];

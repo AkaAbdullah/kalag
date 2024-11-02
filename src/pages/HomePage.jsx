@@ -3,6 +3,7 @@ import { AboutUsSection } from "../components/AboutUsSection";
 import { cardData, serviceCardData } from "../utils/cardData";
 import { ServicesSection } from "../components/ServicesSection";
 import { HeroSection } from "../components/HeroSection";
+import { ClientsSection } from "../components/ClientsSection";
 
 export const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
       <Cards cardData={cardData} />
       <AboutUsSection />
       <ServicesSection cardData={serviceCardData} />
+      <ClientsSection />
     </section>
   );
 };
