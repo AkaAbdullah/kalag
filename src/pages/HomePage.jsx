@@ -6,6 +6,7 @@ import { HeroSection } from "../components/HeroSection";
 import { ClientsSection } from "../components/ClientsSection";
 import { ConsultSection } from "../components/ConsultSection";
 import { WhyChooseUsSection } from "../components/WhyChooseUsSection";
+import { Reviews } from "../components/Reviews";
 
 export const HomePage = () => {
   return (
@@ -19,6 +20,9 @@ export const HomePage = () => {
         <ConsultSection />
       </div>
       <WhyChooseUsSection />
+      <div className=" py-40">
+        <Reviews />
+      </div>
     </section>
   );
 };
