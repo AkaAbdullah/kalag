@@ -15,16 +15,18 @@ export const HomePage = () => {
         <HeroSection />
         <Cards cardData={cardData} />
       </div>
-      <div className=" py-20">
+      <div className=" lg:py-20">
         <AboutUsSection />
       </div>
       <ServicesSection cardData={serviceCardData} />
-      <ClientsSection />
-      <div className="  py-40">
+      <div className=" hidden lg:flex">
+        <ClientsSection />
+      </div>
+      <div className="  lg:py-40">
         <ConsultSection />
       </div>
       <WhyChooseUsSection />
-      <div className=" py-40">
+      <div className=" py-40 hidden lg:flex">
         <Reviews />
       </div>
     </section>

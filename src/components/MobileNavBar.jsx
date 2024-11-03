@@ -10,7 +10,7 @@ export const MobileNavBar = () => {
     <>
       <nav className=" flex lg:hidden h-16 w-full justify-between flex-row   shadow-lg p-5 items-center ">
         <Link to="/">
-          <img src={mediaData.logo} className=" w-[100px]" />
+          <img src={mediaData.logo1} className=" w-[100px]" />
         </Link>
         <ImMenu size={30} onClick={onMEnuClick} />
       </nav>

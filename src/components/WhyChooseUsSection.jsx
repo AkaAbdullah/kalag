@@ -1,9 +1,8 @@
-import React from "react";
 import { awards } from "../utils/cardData";
 
 export const WhyChooseUsSection = () => {
   return (
-    <section className=" grid grid-cols-1 lg:grid-cols-2 justify-items-around  ">
+    <section className=" grid grid-cols-1 lg:grid-cols-2 justify-items-around  gap-20 ">
       <div className=" flex gap-20 flex-wrap items-center justify-center">
         {awards.map((item) => (
           <div
@@ -16,7 +15,7 @@ export const WhyChooseUsSection = () => {
         ))}
       </div>
       <div className=" space-y-5">
-        <h1 className=" text-4xl font-bold">Why Choose us.</h1>
+        <h1 className=" text-3xl lg:text-4xl font-bold">Why Choose us.</h1>
         <p className=" text-gray-600 text-lg">
           We are the award winning professionals delivering successful projects
           every while. We are your best ally in the ever changing digital world.

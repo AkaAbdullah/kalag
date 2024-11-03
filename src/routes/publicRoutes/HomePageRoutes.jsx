@@ -1,6 +1,7 @@
 import { Layout1 } from "../../layout/Layout1";
 import { ErrorPage } from "../../pages/ErrorPage";
 import { HomePage } from "../../pages/HomePage";
+import { ServicesPage } from "../../pages/ServicesPage";
 
 export const homePageRoutes = [
   {
@@ -21,7 +22,7 @@ export const homePageRoutes = [
       },
       {
         path: "/services",
-        element: <p>services</p>,
+        element: <ServicesPage />,
       },
       {
         path: "/read-guides",

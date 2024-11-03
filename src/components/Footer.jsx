@@ -11,7 +11,7 @@ export const Footer = () => {
       <div className="  grid lg:grid-cols-3 gap-5  lg:gap-10 grid-cols-1 items-start justify-items-center container mx-auto px-5 md:px-20 lg:px-40">
         <div className="  flex  items-center lg:items-start flex-col">
           <img src={mediaData.logo2} className=" w-[250px] mb-2" />
-          <p className=" font-semibold">
+          <p className=" font-semibold text-center lg:text-start">
             Elevate your online presence with our specialized WordPress
             development solutions.
           </p>
@@ -35,13 +35,21 @@ export const Footer = () => {
               />
             </div>
           </div>
+          <div className="  col-span-1 space-y-5 block md:hidden">
+            <p className=" font-semibold text-lg">Contact Info</p>
+            <p className=" font-semibold text-lg">+14092327588</p>
+            <p className=" font-semibold text-lg">
+              <span className=" text-xl">&#9993; </span>
+              info@blueittechnology.com
+            </p>
+          </div>
         </div>
-        <div className=" col-span-1 space-y-5">
+        <div className="  col-span-1 space-y-5 hidden md:block ">
           <p className=" font-semibold text-lg">Contact Info</p>
           <p className=" font-semibold text-lg">+14092327588</p>
           <p className=" font-semibold text-lg">
             <span className=" text-xl">&#9993; </span>
-            blueittechnology2@gmail.com
+            info@blueittechnology.com
           </p>
         </div>
       </div>

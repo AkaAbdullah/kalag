@@ -3,8 +3,8 @@ import { Carousel } from "react-responsive-carousel";
 
 export const Reviews = () => {
   return (
-    <section className=" space-y-10">
-      <h1 className="text-4xl font-bold text-center mb-6">
+    <section className=" space-y-10  ">
+      <h1 className=" text-3xl lg:text-4xl font-bold text-center mb-6">
         What Our Clients Say.
       </h1>
       <hr />
@@ -18,14 +18,7 @@ export const Reviews = () => {
           emulateTouch={true}
           interval={5000}
         >
-          {/* <div className=" w-3/4 lg:w-full">
-            <h1 className=" text-sm lg:text-lg text-slate-500">
-              Bohat maaza aya kam kar k bhenchod maa chod di kaam ki bhsodiwalo
-              ne
-            </h1>
-            <p className=" font-semibold text-xl">Kala Tata</p>
-          </div> */}
-          <div className="w-3/4 lg:w-full">
+          <div className=" lg:w-full">
             <h1 className=" text-sm lg:text-lg text-slate-500 text-wrap">
               I cannot express how pleased I am with the service I received from
               this company. From the moment I made my initial inquiry, their
@@ -38,7 +31,7 @@ export const Reviews = () => {
             </h1>
             <p className=" font-semibold text-xl mt-6">Markus Ling</p>
           </div>
-          <div className="w-3/4 lg:w-full">
+          <div className=" lg:w-full">
             <h1 className=" text-sm lg:text-lg text-slate-500">
               Working with this company has been a game-changer for my business.
               Their expertise and innovative approach helped us achieve our

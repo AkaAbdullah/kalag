@@ -93,6 +93,34 @@ export const clientsLogos = [
     id: 3,
     logo: mediaData.c3,
   },
+  {
+    id: 4,
+    logo: mediaData.c4,
+  },
+  {
+    id: 5,
+    logo: mediaData.c5,
+  },
+  {
+    id: 6,
+    logo: mediaData.c6,
+  },
+  {
+    id: 7,
+    logo: mediaData.c7,
+  },
+  {
+    id: 8,
+    logo: mediaData.c8,
+  },
+  {
+    id: 9,
+    logo: mediaData.c9,
+  },
+  {
+    id: 10,
+    logo: mediaData.c10,
+  },
 ];
 
 export const awards = [
