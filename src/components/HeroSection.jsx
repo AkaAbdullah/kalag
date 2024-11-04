@@ -16,7 +16,7 @@ export const HeroSection = () => {
             1000,
             "Software Solutions",
             1000,
-            "Prostitution",
+            "LLC Creation",
             1000,
           ]}
           wrapper="span"

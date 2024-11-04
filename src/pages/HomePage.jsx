@@ -7,6 +7,7 @@ import { ClientsSection } from "../components/ClientsSection";
 import { ConsultSection } from "../components/ConsultSection";
 import { WhyChooseUsSection } from "../components/WhyChooseUsSection";
 import { Reviews } from "../components/Reviews";
+// import { ReactSlider } from "../components/Slider";
 
 export const HomePage = () => {
   return (
@@ -19,9 +20,7 @@ export const HomePage = () => {
         <AboutUsSection />
       </div>
       <ServicesSection cardData={serviceCardData} />
-      <div className=" hidden lg:flex">
-        <ClientsSection />
-      </div>
+      <div className=" hidden lg:flex">{/* <ClientsSection /> */}</div>
       <div className="  lg:py-40">
         <ConsultSection />
       </div>
