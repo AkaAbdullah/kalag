@@ -10,9 +10,13 @@ import c7 from "../assets/c7.jpg";
 import c8 from "../assets/c8.jpg";
 import c9 from "../assets/c9.png";
 import c10 from "../assets/c10.jpg";
+import heroBg from "../assets/bgimg.png";
+import textureimg from "../assets/textureimg.png";
 
 export const mediaData = {
   logo1,
+  heroBg,
+  textureimg,
   logo2,
   c1,
   c2,
