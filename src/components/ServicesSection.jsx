@@ -1,9 +1,9 @@
 import React from "react";
 import { serviceCardData } from "../utils/cardData";
 
-export const ServicesSection = ({ cardData }) => {
+export const ServicesSection = ({ cardData, id }) => {
   return (
-    <section className=" space-y-10 ">
+    <section id={id} className=" space-y-10 ">
       <h1 className=" text-2xl font-semibold text-center">What We Offer?</h1>
       <p className=" text-center">
         Your digital success is just a click away - let us help you thrive

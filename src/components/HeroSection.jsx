@@ -1,5 +1,6 @@
 import { Button } from "./Button";
 import { TypeAnimation } from "react-type-animation";
+import { ScrollButton } from "./ScrollButton";
 
 export const HeroSection = () => {
   return (
@@ -32,6 +33,9 @@ export const HeroSection = () => {
           {/* <Button title="Get Started" variant="primary" /> */}
           <Button title="Get Started" variant="secondary" />
         </div>
+      </div>
+      <div className=" mt-5 w-full flex items-center justify-center">
+        <ScrollButton />
       </div>
     </div>
   );

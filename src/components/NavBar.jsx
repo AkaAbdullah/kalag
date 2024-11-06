@@ -1,6 +1,7 @@
 import { menuITems } from "../utils/data";
 import { Link, NavLink } from "react-router-dom";
 import { mediaData } from "../utils/mediaData";
+import { Button } from "./Button";
 
 export const NavBar = () => {
   return (
@@ -39,9 +40,9 @@ export const MenuItems = () => {
 export const ContactITems = () => {
   return (
     <div className=" flex items-center gap-5">
-      <button className=" bg-blue-700  rounded-full p-2 flex items-center justify-center  text-white font-semibold">
+      <Button variant="secondary" title="Get Started">
         Get Started
-      </button>
+      </Button>
     </div>
   );
 };

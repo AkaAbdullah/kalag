@@ -6,7 +6,7 @@ export const AboutUsSection = () => {
         <p className=" font-semibold text-2xl ">
           Your Trusted Digital Marketing Partner
         </p>
-        <p className=" font-semibold ">
+        <p className="  text-gray-400">
           Blue IT Technologies! We started in 2015 and have grown into a
           top-rated digital marketing agency. We're proud to be recognized with
           awards and highly rated on platforms like Fiverr and Upwork. With over

@@ -5,12 +5,15 @@ export const Button = ({ title, onClick, type, variant, className }) => {
 
   switch (variant) {
     case "primary":
-      buttonClasses = twMerge(buttonClasses, "bg-blue-600");
+      buttonClasses = twMerge(
+        buttonClasses,
+        "bg-blue-600 text-white  hover:bg-white  hover:text-text-blue-600 hover:scale-105 duration-100"
+      );
       break;
     case "secondary":
       buttonClasses = twMerge(
         buttonClasses,
-        "bg-white text-blue-600   outline outline-1"
+        "bg-white text-blue-600   hover:bg-blue-600 hover:text-white hover:scale-105 duration-100  outline outline-1"
       );
       break;
     default:
