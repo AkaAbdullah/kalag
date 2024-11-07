@@ -6,7 +6,7 @@ import { mediaData } from "../utils/mediaData";
 export const ServicesPage = () => {
   return (
     <section>
-      <div className=" -z-10 w-full top-16 left-0  absolute">
+      <div className=" -z-10 w-full hidden md:block top-16 left-0  absolute">
         <img src={mediaData.heroBg} />
       </div>
       <ServicesSection cardData={serviceCardData} />
