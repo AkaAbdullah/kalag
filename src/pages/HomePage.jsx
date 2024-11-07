@@ -16,9 +16,9 @@ export const HomePage = () => {
       <div className=" w-full top-16 left-0  absolute">
         <img src={mediaData.heroBg} />
       </div>
-      <div className=" absolute right-0 top-0">
+      {/* <div className=" absolute right-0 top-0">
         <img src={mediaData.textureimg} />
-      </div>
+      </div> */}
 
       <div className=" py-20">
         <HeroSection />
