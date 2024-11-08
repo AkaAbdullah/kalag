@@ -15,7 +15,7 @@ export const ConsultSection = () => {
         <Button
           title="Consult Now"
           variant="primary"
-          className="rounded-full"
+          className="rounded-full hover: hover:text-blue-600"
         />
       </div>
     </section>

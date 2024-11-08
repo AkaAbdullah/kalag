@@ -8,12 +8,13 @@ import { ConsultSection } from "../components/ConsultSection";
 import { WhyChooseUsSection } from "../components/WhyChooseUsSection";
 import { Reviews } from "../components/Reviews";
 import { mediaData } from "../utils/mediaData";
+import { OurTeam } from "../components/OurTeam";
 // import { ReactSlider } from "../components/Slider";
 
 export const HomePage = () => {
   return (
     <section className=" space-y-20 scroll-smooth  h-full">
-      <div className=" w-full top-16 left-0  absolute">
+      <div className=" w-full top-16  -z-20 left-0  absolute">
         <img src={mediaData.heroBg} />
       </div>
       {/* <div className=" absolute right-0 top-0">
@@ -35,6 +36,9 @@ export const HomePage = () => {
       <WhyChooseUsSection />
       <div className=" py-40 hidden lg:flex">
         <Reviews />
+      </div>
+      <div>
+        <OurTeam />
       </div>
     </section>
   );

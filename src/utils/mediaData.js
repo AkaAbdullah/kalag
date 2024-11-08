@@ -12,9 +12,10 @@ import c9 from "../assets/c9.png";
 import c10 from "../assets/c10.jpg";
 import heroBg from "../assets/bgimg.png";
 import textureimg from "../assets/textureimg.png";
-
+import CEO from "../assets/dani.jpg";
 export const mediaData = {
   logo1,
+  CEO,
   heroBg,
   textureimg,
   logo2,
