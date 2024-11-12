@@ -13,7 +13,16 @@ import c10 from "../assets/c10.jpg";
 import heroBg from "../assets/bgimg.png";
 import textureimg from "../assets/textureimg.png";
 import CEO from "../assets/dani.jpg";
+import danish from "../assets/kalanew.jpg";
+import talat from "../assets/talat.png";
+// import boss from "../assets/boss.JPG";
+import placeholderImage from "../assets/placeholderimage.png";
+
 export const mediaData = {
+  danish,
+  placeholderImage,
+  talat,
+  // boss,
   logo1,
   CEO,
   heroBg,
