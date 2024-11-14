@@ -12,11 +12,14 @@ export const ConsultSection = () => {
         Schedule a FREE Consultation Today! We are Here to help!
       </p>
       <div className=" flex items-center justify-center mt-10">
-        <Button
-          title="Consult Now"
-          variant="primary"
-          className="rounded-full hover: hover:text-blue-600"
-        />
+        <a
+          className="bg-blue-600 text-white  w-40 text-center p-3 rounded-full font-semibold  hover:bg-white hover:text-black hover:scale-105 duration-100  outline outline-1"
+          href="https://wa.link/22xwoh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get Started
+        </a>
       </div>
     </section>
   );

@@ -40,9 +40,14 @@ export const MenuItems = () => {
 export const ContactITems = () => {
   return (
     <div className=" flex items-center gap-5">
-      <Button variant="secondary" title="Get Started">
+      <a
+        className="bg-white text-blue-600  p-3 rounded-lg font-semibold  hover:bg-blue-600 hover:text-white hover:scale-105 duration-100  outline outline-1"
+        href="https://wa.link/22xwoh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Get Started
-      </Button>
+      </a>
     </div>
   );
 };

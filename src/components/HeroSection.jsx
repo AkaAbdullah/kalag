@@ -31,7 +31,14 @@ export const HeroSection = () => {
           </p> */}
         <div className=" flex flex-col lg:flex-row gap-5">
           {/* <Button title="Get Started" variant="primary" /> */}
-          <Button title="Get Started" variant="secondary" />
+          <a
+            className="bg-white text-blue-600  p-3 rounded-lg font-semibold  hover:bg-blue-600 hover:text-white hover:scale-105 duration-100  outline outline-1"
+            href="https://wa.link/22xwoh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Started
+          </a>
         </div>
       </div>
       <div className=" mt-5 w-full flex items-center justify-center">

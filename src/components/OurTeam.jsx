@@ -1,4 +1,4 @@
-import { mediaData } from "../utils/mediaData";
+import { teamMembersData } from "../utils/data";
 
 // OurTeam component, which renders a list of team members
 export const OurTeam = () => {
@@ -24,7 +24,7 @@ export const TeamMemberCard = ({ data }) => {
       <img
         src={data?.image}
         alt={data?.name}
-        className="rounded-xl w-full object-cover md:w-[300px]"
+        className="rounded-xl grayscale w-full object-cover md:w-[300px]"
       />
       <div className="p-3 space-y-3">
         <h1 className="text-lg font-bold">{data.name}</h1>
@@ -39,36 +39,3 @@ export const TeamMemberCard = ({ data }) => {
 };
 
 // Team members data
-export const teamMembersData = [
-  {
-    id: 1,
-    name: "Danish Bilal",
-    image: mediaData.danish,
-    role: "CEO and Co-founder",
-    words:
-      "Leading with passion and innovation to create solutions that make a difference.",
-  },
-  {
-    id: 2,
-    name: "Talat Hussain",
-    image: mediaData.talat,
-    role: "CEO and Co-founder",
-    words: "Empowering teams to push boundaries and achieve the impossible.",
-  },
-  {
-    id: 3,
-    name: "Awais Anwar",
-    image: mediaData.placeholderImage,
-    role: "Project Manager",
-    words:
-      "Turning visionary ideas into reality and inspiring others along the way.",
-  },
-  {
-    id: 3,
-    name: "Awais Anwar",
-    image: mediaData.placeholderImage,
-    role: "PPC Expert",
-    words:
-      "Technology is the bridge between dreams and reality. I'm here to make that bridge stronger.",
-  },
-];
